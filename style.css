@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+form{
+    width: 500px;
+    border: 1px solid black;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+form div{
+    margin-bottom: 1rem;
+}
+
+form input,textarea{
+    margin: 0.3rem 0;
+    width: 100%;
+    outline: none;
+    padding: 0.6rem;
+}
+
+form textarea{
+    height: 100px;
+}
+
+form div p{
+    color: red;
+    font-size: 13.5px;
+}
